@@ -1,2 +1,3 @@
-# pyramidEvolution
-Demonstration of Basic HTML/CSS/jQuery
+# Structural Evolution of Ancient Egyptian Pyramids
+
+Demonstration of basic familiarity with using HTML/CSS/jQuery to create a simple web page that is responsively designed.
