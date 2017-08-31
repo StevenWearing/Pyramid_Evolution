@@ -53,7 +53,7 @@ body {
   
   .title {
     background: linear-gradient(rgba(100,100,255, 1), rgba(120,120,255, 1), rgba(120,120,255, 0.9), rgba(120,120,255, 0.9), rgba(120,120,255, 0.9), rgba(120,120,255, 0.7), rgba(120,120,255, 0.1));
-    color: rgb(180, 20, 20);
+    color: black;
     margin-bottom: -50%;
     padding: 5%;
     padding-top: 10%;
