@@ -42,24 +42,11 @@ body {
 
 
 
-     /*   very small   */
 
-@media screen and (max-width: 600px) {
-  .one {
-    width: 100%;
-    padding: 10px;
-  }
-  
-  .three {
-    width: 100%;
-    padding: 10px;
-  }
-  
-  .two {
-    width: 0%;
-    padding: 0px;
-  }
-  
+
+     /*    small   */
+
+@media screen and (max-width: 650px) {
   #title {
     font-size: 6.5vw;
   }
@@ -69,21 +56,14 @@ body {
   }
 }
 
-
-
         /*        Medium       */
 
 @media screen and (max-width: 992px) {
   body {
-      background-image: url(https://farm5.staticflickr.com/4363/36073886064_8cbc7290cc_o.jpg);
+      background-image: url(https://farm5.staticflickr.com/4426/36124490613_214f492451_o.jpg);
       background-size: 100%;
       background-repeat: no-repeat;
     }
-  
-  .two {
-    width: 100%;
-    padding: 10px;
-  }
   
   .title {
     background: rgba(120,120,255, 1);
@@ -239,5 +219,112 @@ body {
     margin-top: 20%;
     margin-left: 23%;
     width: 68.5%;
+  }
+}
+
+
+
+    /*    Button arrangements based on viewport   */
+
+@media screen and (max-width: 900px) and (min-width: 631px) {
+  
+  .introButtonSplit-three {
+    display: block;
+    padding: 10px;
+  }
+  
+  #sandBurialButton {
+    width: 30%;
+  }
+  
+  #coffinBurialButton {
+    width: 30%;
+  }
+  
+  #mastabaBurialButton {
+    width: 30%;
+  }
+  
+  #stepPyramidButton {
+    width: 30%;
+  }
+  
+  #snefruPyramidButton {
+    width: 30%;
+  }
+  
+  #greatPyramidButton {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .introButtonSplit-one {
+    display: block;
+    padding: 10px;
+  }
+  
+  .introButtonSplit-two {
+    display: block;
+    padding: 10px;
+  }
+  
+  .introButtonSplit-three {
+    display: block;
+    padding: 10px;
+  }
+  
+  .introButtonSplit-four {
+    display: block;
+    padding: 10px;
+  }
+  
+  .introButtonSplit-five {
+    display: block;
+    padding: 10px;
+  }
+  
+  #sandBurialButton {
+    width: 80%;
+  }
+  
+  #coffinBurialButton {
+    width: 80%;
+  }
+  
+  #mastabaBurialButton {
+    width: 80%;
+  }
+  
+  #stepPyramidButton {
+    width: 80%;
+  }
+  
+  #snefruPyramidButton {
+    width: 80%;
+  }
+  
+  #greatPyramidButton {
+    width: 80%;
+  }
+  
+  #introButtonGP {
+    width: 60%;
+  }
+  
+  #infoButton {
+    width: 60%;
+  }
+  
+  #snefruPyramidButtonGP {
+    width: 60%;
+  }
+  
+  .GPbuttonSpacingTop {
+    padding-top: 5%;
+  }
+  
+  .GPbuttonSpacingBottom {
+    padding-top: 10%;
   }
 }
