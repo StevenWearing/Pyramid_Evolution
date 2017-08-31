@@ -1,0 +1,243 @@
+body {
+  background-color: rgb(222, 196, 145);
+}
+
+.infoTexture {
+  background-image: url(https://farm5.staticflickr.com/4415/36321066860_29c95bc48f_o.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.info-border {
+  border-color: tan;
+  border-width: 10px;
+  border-style: ridge;
+}
+
+.image-border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.button-text {
+  font-size: 1.15vw;
+}
+
+.links-text {
+  font-size: 1.2vw;
+}
+
+.info-text {
+  font-family: Arial;
+  padding: 15px;
+}
+
+.info-header {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 30px;
+  text-decoration: underline overline;
+}
+
+
+
+     /*   very small   */
+
+@media screen and (max-width: 600px) {
+  .one {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .three {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .two {
+    width: 0%;
+    padding: 0px;
+  }
+  
+  #title {
+    font-size: 6.5vw;
+  }
+  
+  #subtitle {
+    font-size: 4vw;
+  }
+}
+
+
+
+        /*        Medium       */
+
+@media screen and (max-width: 992px) {
+  body {
+      background-image: url(https://farm5.staticflickr.com/4363/36073886064_8cbc7290cc_o.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  
+  .two {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .title {
+    background: rgba(120,120,255, 1);
+    border-color: silver;
+    border-width: 10px;
+    border-style: solid; 
+    border-radius: 30%;
+    margin: auto;
+    width: 70%;
+    margin-top: 5%;
+    padding: 5%;
+  }
+  
+  #title {
+    font-size: 5.5vw;
+  }
+  
+  #subtitle {
+    font-size: 3vw;
+  }
+  
+  .info-text {
+    font-size: 16px;
+  }
+  
+  .button-text {
+    font-size: 13px;
+    padding-top: 10px;
+    margin-bottom: 10%;
+  }
+  
+  .links-text {
+    font-size: 16px;
+  }
+  
+  .intro-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  .sandBurial-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  .coffinBurial-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .mastabaBurial-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .stepPyramid-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .snefruPyramid-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .greatPyramid-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .link-info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+
+/*        Large        */
+@media screen and (min-width: 993px) {
+  body {
+      background-image: url(https://farm5.staticflickr.com/4416/36908141795_1a6ee7820e_o.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  
+  .title {
+    margin-top: 5%;
+    margin-left: 14%;
+  }
+  
+  #title {
+    font-size: 3.5vw;
+  }
+
+  #subtitle {
+    font-size: 2vw;
+  }
+  
+  .info-text {
+    font-size: 1.3vw;
+  }
+  
+  .intro-info-box {
+    width: 68.5%;
+    margin-top: 70vw;
+    margin-left: 22%;
+  }
+
+  .sandBurial-info-box {
+    margin-top: 40%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+
+  .coffinBurial-info-box {
+    margin-top: 20%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+
+  .mastabaBurial-info-box {
+    margin-top: 20%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+
+  .stepPyramid-info-box {
+    margin-top: 20%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+
+  .snefruPyramid-info-box {
+    margin-top: 20%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+
+  .greatPyramid-info-box {
+    margin-top: 20%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+
+  .link-info-box {
+    margin-top: 20%;
+    margin-left: 23%;
+    width: 68.5%;
+  }
+}
