@@ -42,20 +42,6 @@ body {
 
 
 
-
-
-     /*    small   */
-
-@media screen and (max-width: 650px) {
-  #title {
-    font-size: 6.5vw;
-  }
-  
-  #subtitle {
-    font-size: 4vw;
-  }
-}
-
         /*        Medium       */
 
 @media screen and (max-width: 992px) {
@@ -66,23 +52,11 @@ body {
     }
   
   .title {
-    background: rgba(120,120,255, 1);
-    border-color: silver;
-    border-width: 10px;
-    border-style: solid; 
-    border-radius: 30%;
-    margin: auto;
-    width: 70%;
-    margin-top: 5%;
+    background: linear-gradient(rgba(100,100,255, 1), rgba(120,120,255, 1), rgba(120,120,255, 0.9), rgba(120,120,255, 0.9), rgba(120,120,255, 0.7), rgba(120,120,255, 0.1));
+    color: maroon;
+    margin-bottom: -40%;
     padding: 5%;
-  }
-  
-  #title {
-    font-size: 5.5vw;
-  }
-  
-  #subtitle {
-    font-size: 3vw;
+    margin-top: -3%;
   }
   
   .info-text {
@@ -102,7 +76,7 @@ body {
   .intro-info-box {
     width: 90%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 50%;
   }
   
   .sandBurial-info-box {
@@ -228,6 +202,14 @@ body {
 
 @media screen and (max-width: 900px) and (min-width: 631px) {
   
+  #title {
+    font-size: 5.5vw;
+  }
+  
+  #subtitle {
+    font-size: 3vw;
+  }
+  
   .introButtonSplit-three {
     display: block;
     padding: 10px;
@@ -259,6 +241,14 @@ body {
 }
 
 @media screen and (max-width: 630px) {
+   #title {
+    font-size: 7.5vw;
+  }
+  
+  #subtitle {
+    font-size: 4.7vw;
+  }
+  
   .introButtonSplit-one {
     display: block;
     padding: 10px;
