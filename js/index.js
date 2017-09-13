@@ -1,6 +1,9 @@
 
+//     Smooth Scrolling Buttons
+
+
+
 //       Introduction Buttons
-//          CHECK BOTTOM -190
 
 $("#introButtonSB").click(function() {
     $('html, body').animate({
@@ -173,6 +176,7 @@ $("#greatPyramidButtonLB").click(function() {
 
 
 //     More information
+
 $("#infoButton").click(function() {
   $('html, body').animate({scrollTop: $('#info').offset().top}, 2000);
 });

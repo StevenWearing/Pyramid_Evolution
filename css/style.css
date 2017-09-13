@@ -1,3 +1,6 @@
+
+      /*    Display-size-independent properties    */
+
 body {
   background-color: rgb(222, 196, 145);
 }
@@ -42,7 +45,7 @@ body {
 
 
 
-        /*        Medium       */
+        /*        Medium display or lesser       */
 
 @media screen and (max-width: 992px) {
   body {
@@ -122,7 +125,10 @@ body {
   }
 }
 
-/*        Large        */
+
+
+         /*        Large display or greater       */
+
 @media screen and (min-width: 993px) {
   body {
       background-image: url(https://farm5.staticflickr.com/4416/36908141795_1a6ee7820e_o.jpg);
@@ -198,7 +204,12 @@ body {
 
 
 
+
+
     /*    Button arrangements based on viewport   */
+
+
+               /*   M   */
 
 @media screen and (max-width: 900px) and (min-width: 631px) {
   
@@ -239,6 +250,9 @@ body {
     width: 30%;
   }
 }
+
+
+               /*   S    */
 
 @media screen and (max-width: 630px) {
    #title {
